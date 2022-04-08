@@ -1,0 +1,8 @@
+install pandas, requests, openpyxl, numpy to run this project
+
+1- Place API Accounts and Version Data files in Utility Files directory
+2- run webfleet.py to update all the tables for all the accounts present in API Accounts file.
+
+PHASE 2
+pip3 install Office365-REST-Python-Client
+run webfleet.py, it will create files and dump them into sharepoint

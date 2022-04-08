@@ -1,7 +1,7 @@
 # About
 ETL pipeline to serve data to a fleet analysis power BI dashboard. Source data is coming from a third party API from WebFleet, transformations are beign done using pandas and the final tables (csv files) are getting uploaded to sharepoint. ETL is deployed on an Azure VM and runs on a schedule using windows schedular.
 
-# Architecture
+# Implementation
 ## Config
 A config file under _Utility Files_ is used to set time ranges for each table.
 
